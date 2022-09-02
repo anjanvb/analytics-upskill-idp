@@ -12,7 +12,7 @@ This is a repo that contains SageMaker Notebooks for diffferent stages of the ID
 
 ## Getting started
 
-## Get Started
+
 
 1. Setup an [Amazon SageMaker Studio domain](https://docs.aws.amazon.com/sagemaker/latest/dg/gs-studio-onboard.html).
 2. Log-on to Amazon SageMaker Studio. Open a terminal from _File_ menu > _New_ > _Terminal_
@@ -30,13 +30,13 @@ git clone <insert insurance workshop link>
 cd idp_workshop/industry/insurance
 ```
 
-4. Open the [01-document-classification.ipynb](./01-document-classification.ipynb) notebook and follow instructions in the notebook for Document Classification with Amazon Comprehend custom classifier.
+4. Open the [01-document-classification.ipynb](./01-document-classification.ipynb) notebook and follow instructions in the notebook for Document Classification with Amazon Comprehend custom classification.
 
 5. Open the [02-document-extraction.ipynb](./02-document-extraction-1.ipynb) notebook and follow instructions in the notebook for Document Extraction with Amazon Textract.
    
 6. Open the [03-document-extraction-2.ipynb](./03-document-extraction-2.ipynb) notebook and follow instructions in the notebook for Document Extraction with Amazon Comprehend custom entity recognizer.
 
-7. Open the [04-document-enrichment.ipynb](./04-document-enrichment.ipynb) notebook and follow instructions in the notebook for Document enrichment (document redaction) with Amazon Comprehend PII entity recognizer.
+7. Open the [04-document-enrichment.ipynb](./04-document-enrichment.ipynb) notebook and follow instructions in the notebook for Document enrichment techniques with Amazon Comprehend Medical entity detection and Amazon Comprehend PII entity recognition.
 
 ## Clean Up
 
