@@ -1,11 +1,11 @@
 # Intelligent document processing with AI Services in Insurance Industry
 
-This is a repo that contains SageMaker Notebooks for diffferent stages of the IDP pipeline with AWS AI services for Insurance claims use case.
+
 
 
 <div align="center">
     <p align="center">
-        <img src="./images/IDP_Insurance.png" alt="idp-insurance"/>
+        <img src="./images/IDP_Insurance_Arch.png" alt="idp-insurance" width="1000" height="500"/>
     </p>
 </div>
 
@@ -14,19 +14,26 @@ This is a repo that contains SageMaker Notebooks for diffferent stages of the ID
 
 
 
-1. Setup an [Amazon SageMaker Studio domain](https://docs.aws.amazon.com/sagemaker/latest/dg/gs-studio-onboard.html).
+1. Setup an **Amazon SageMaker Studio domain.**
+    
+    To execute all the Jupyter Notebooks in this repository, we will first need to create a SageMaker Studio domain. 
+
+    The CloudFormation template to create the SageMaker Studio domain and all the related resources, such as IAM Roles, S3 Bucket policies, Permissions for Services like Amazon Textract and Amazon Comprehend, etc. is included under the `/dist` directory in the template. 
+
+    Follow the steps from **Getting Started** section in our general IDP [ GitHub repository](https://github.com/aws-samples/aws-ai-intelligent-document-processing) to create the CloudFormation stack using the `idp-deploy.yaml` file.
+
 2. Log-on to Amazon SageMaker Studio. Open a terminal from _File_ menu > _New_ > _Terminal_
    
 <div align="center">
     <p align="center">
-       <img src="./images/sm-studio-terminal.png" alt="sf"/>
+       <img src="./images/sm-studio-terminal.png" alt="sf" width="900" height="500"/>
     </p>
 </div>
 
 3. Clone this repository
 
 ```sh
-git clone <insert insurance workshop link>
+git clone https://github.com/aws-samples/aws-ai-intelligent-document-processing idp_workshop
 cd idp_workshop/industry/insurance
 ```
 
